@@ -5,7 +5,7 @@
 Este projeto consiste no desenvolvimento de uma página web de um serviço que atenda a um "Objetivo de Desenvolvimento Sustentável" (ODS)
 e/ou que resolva um problema da comunidade local.
 
-ODS Atendidas: 02 - Fome Zero e Agricultura Sustentável e 12 - Consumo e Produções Sustentáveis
+ODS Atendida: 12 - Consumo e Produções Sustentáveis
 
 O site irá trazer dicas de reaproveitamento e sustentabilidade no dia-a-dia, seja no momento de cozinhar, de se vestir ou fazer coisas básicas
 como no momento de tomar um banho ou ligar um ventilador.
