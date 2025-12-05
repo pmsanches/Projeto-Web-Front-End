@@ -23,5 +23,8 @@ Este projeto foi desenvolvido utilizando as seguintes tecnologias de Front-End:
 Confira o vídeo de apresentação para uma visão geral detalhada das funcionalidades e do impacto do projeto:
 https://youtu.be/hC6kZHsfHG4
 
+# Link git
+https://github.com/pmsanches/Projeto-Web-Front-End
+
 # 👩‍💻 Desenvolvedor
 Paolla Sanches
