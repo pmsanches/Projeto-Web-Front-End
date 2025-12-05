@@ -10,5 +10,18 @@ ODS Atendida: 12 - Consumo e Produções Sustentáveis
 O site irá trazer dicas de reaproveitamento e sustentabilidade no dia-a-dia, seja no momento de cozinhar, de se vestir ou fazer coisas básicas
 como no momento de tomar um banho ou ligar um ventilador.
 
-# Link para o vídeo de apresentação
+# 💻 Tecnologias Utilizadas (Sugestão de Inclusão)
+Este projeto foi desenvolvido utilizando as seguintes tecnologias de Front-End:
+
+    HTML5: Estruturação semântica do conteúdo.
+
+    CSS3: Estilização e design responsivo.
+
+    JavaScript: Interatividade e funcionalidades dinâmicas da página (se aplicável).
+
+# 🔗 Demonstração e Apresentação
+Confira o vídeo de apresentação para uma visão geral detalhada das funcionalidades e do impacto do projeto:
 https://youtu.be/hC6kZHsfHG4
+
+# 👩‍💻 Desenvolvedor
+Paolla Sanches
