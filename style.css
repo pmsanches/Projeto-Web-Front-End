@@ -395,25 +395,3 @@ li {
     }
 }
 
-@media (max-width: 600px) {
-    .footer-content {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .footer-section h4 {
-        border-bottom: none;
-    }
-    
-    .list-controls {
-        flex-direction: column;
-    }
-    
-    .list-controls #searchInput {
-        margin-bottom: 10px;
-    }
-    
-    .btn-danger {
-        width: 100%;
-    }
-}
