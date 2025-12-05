@@ -1,18 +1,5 @@
-/*
- * 🌳 Reaproveita: Estilos Completos e Unificados (style.css) 🌳
- *
- * Inclui:
- * 1. Design Base e Tipografia.
- * 2. Header e Navegação.
- * 3. Seção Hero.
- * 4. Seção Dicas (com imagens uniformes).
- * 5. Seção Sobre (ODS).
- * 6. Formulário Admin/Cadastro.
- * 7. Rodapé.
- * 8. Responsividade.
- */
 
-/* 🌳 Base e Reset 🌳 */
+/* Base e Reset */
 body {
     font-family: 'Arial', sans-serif;
     background-color: #f8f8f8;
@@ -46,7 +33,7 @@ h3 {
     color: #555;
 }
 
-/* 🧭 Cabeçalho e Navegação 🧭 */
+/* Cabeçalho e Navegação  */
 header {
     background-color: #2ecc71;
     padding: 15px 20px;
@@ -75,7 +62,7 @@ nav a:hover {
     color: #ccf6e4;
 }
 
-/* 🏷️ Cartão Genérico (Card) 🏷️ */
+/* Cartão */
 .card {
     background-color: #fff;
     padding: 20px;
@@ -89,7 +76,7 @@ nav a:hover {
     transform: translateY(-3px);
 }
 
-/* 🟢 Botões (Principal, Secundário, Perigo) 🟢 */
+/* Botões */
 .btn-primary {
     display: inline-block;
     padding: 12px 25px;
@@ -147,7 +134,7 @@ nav a:hover {
     margin-left: 10px;
 }
 
-/* 🖼️ Seção Hero (Início) 🖼️ */
+/* Início  */
 .hero {
     background-color: #e8f5e9;
     padding: 60px 0;
@@ -177,16 +164,15 @@ nav a:hover {
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
 }
 
-/* 💡 Seção de Dicas (Grid e Imagens Uniformes) 💡 */
+/*  Seção de Dicas  */
 .dicas-section {
     padding: 50px 0;
     background-color: #fff;
 }
 
 .dicas-section .container {
-    /* Layout de bloco vertical simples, removendo o grid para exibir um abaixo do outro */
-    max-width: 800px; /* Limita a largura para centralizar melhor os blocos */
-    margin: 0 auto; /* Centraliza o container */
+    max-width: 800px; 
+    margin: 0 auto; 
 }
 
 .dica-card {
@@ -196,8 +182,8 @@ nav a:hover {
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
     transition: box-shadow 0.3s ease;
-    position: relative; /* Adicionado para corrigir sobreposição de elementos filhos */
-    margin-bottom: 30px; /* Adiciona espaço entre os cartões */
+    position: relative; 
+    margin-bottom: 30px; 
 }
 
 .dica-icon {
@@ -208,13 +194,13 @@ nav a:hover {
 /* GARANTE IMAGENS DO MESMO TAMANHO */
 .dica-image {
     width: 100%;
-    height: 200px; /* Altura FIXA */
-    object-fit: cover; /* Recorta para preencher o espaço */
+    height: 200px;
+    object-fit: cover; 
     border-radius: 8px;
     margin-bottom: 15px;
 }
 
-/* 📜 Listas de Dicas e Listas de Usuários 📜 */
+/*  Listas de Dicas e Listas de Usuários  */
 ul {
     list-style: none;
     padding: 0;
@@ -228,20 +214,18 @@ li {
     background-color: #f9f9f9;
     margin-bottom: 8px;
     border-radius: 6px;
-    /* Estilo padrão da lista (usado na admin.html) */
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 0.95em;
 }
 
-/* Garante que os LI dos cards de dica não sejam tratados como Flexbox */
 .dica-card ul li {
     display: block;
     justify-content: unset;
 }
 
-/* 🌐 Seção Sobre 🌐 */
+/*  Seção Sobre  */
 .sobre-section {
     padding: 60px 0;
     background-color: #e8f5e9;
@@ -272,7 +256,7 @@ li {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
-/* 📋 Estilos da Tela de Cadastro e Admin 📋 */
+/* Estilos da Tela de Cadastro e Admin  */
 .cadastro-card, .admin-card {
     max-width: 550px;
     margin: 40px auto;
@@ -316,8 +300,8 @@ li {
 
 .form-actions {
     display: flex;
-    gap: 5px; /* Reduzido o espaçamento entre os botões */
-    justify-content: center; /* Centraliza os botões */
+    gap: 5px; 
+    justify-content: center; 
     margin-top: 10px;
 }
 
@@ -334,7 +318,7 @@ li {
     padding: 10px;
 }
 
-/* 🌲 Rodapé (Footer) 🌲 */
+/*  Rodapé   */
 .footer {
     background-color: #333;
     color: #f8f8f8;
@@ -382,7 +366,7 @@ li {
     color: #aaa;
 }
 
-/* 📱 Responsividade (Media Queries) 📱 */
+/* Responsividade  */
 @media (max-width: 768px) {
     .hero .container {
         flex-direction: column;
